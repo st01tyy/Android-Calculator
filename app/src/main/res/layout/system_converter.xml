@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LengthUnitConverter">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView_inputValue"
+            style="@style/ConverterInputValue"
+            android:text="0" />
+
+        <Spinner
+            style="@style/spinner"
+            android:id="@+id/spinner_input"
+            android:entries="@array/LengthUnits"
+            />
+
+        <TextView
+            android:id="@+id/textView_outputValue"
+            style="@style/ConverterOutputValue"
+            android:text="0">
+
+        </TextView>
+
+        <Spinner
+            style="@style/spinner"
+            android:id="@+id/spinner_output"
+            android:entries="@array/LengthUnits"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                style="@style/numbers"
+                android:id="@+id/btn_A"
+                android:text="a" />
+
+            <Button
+                android:id="@+id/btn_clear"
+                style="@style/Operators"
+                android:text="清空" />
+
+            <Button
+                android:id="@+id/btn_backspace"
+                style="@style/Operators"
+                android:text="退格" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_B"
+                style="@style/numbers"
+                android:text="b" />
+
+            <Button
+                android:id="@+id/btn_C"
+                style="@style/numbers"
+                android:text="c" />
+
+            <Button
+                android:id="@+id/btn_D"
+                style="@style/numbers"
+                android:text="d" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_7"
+                style="@style/numbers"
+                android:text="7" />
+
+            <Button
+                android:id="@+id/btn_8"
+                style="@style/numbers"
+                android:text="8" />
+
+            <Button
+                android:id="@+id/btn_9"
+                style="@style/numbers"
+                android:text="9" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_4"
+                style="@style/numbers"
+                android:text="4" />
+
+            <Button
+                android:id="@+id/btn_5"
+                style="@style/numbers"
+                android:text="5" />
+
+            <Button
+                android:id="@+id/btn_6"
+                style="@style/numbers"
+                android:text="6" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_1"
+                style="@style/numbers"
+                android:text="1" />
+
+            <Button
+                android:id="@+id/btn_2"
+                style="@style/numbers"
+                android:text="2" />
+
+            <Button
+                android:id="@+id/btn_3"
+                style="@style/numbers"
+                android:text="3" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                style="@style/numbers"
+                android:id="@+id/btn_E"
+                android:text="e"/>
+
+            <Button
+                android:id="@+id/btn_0"
+                style="@style/numbers"
+                android:text="0" />
+
+            <Button
+                android:id="@+id/btn_F"
+                style="@style/numbers"
+                android:text="f" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

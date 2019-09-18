@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menuItem_calculator"
+        android:title="计算器"
+        />
+    <item
+        android:id="@+id/menuItem_length"
+        android:title="长度单位转换"
+        />
+    <item
+        android:id="@+id/menuItem_volume"
+        android:title="体积单位转换"
+        />
+    <item
+        android:id="@+id/menuItem_numberSystem"
+        android:title="进制转换"
+        />
+    <item
+        android:id="@+id/menuItem_help"
+        android:title="帮助"
+        />
+
+</menu>

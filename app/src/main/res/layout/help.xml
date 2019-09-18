@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Help">
+
+    <TextView
+        style="@style/ConverterInputValue"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="帮助\n
+1.计算器中的log函数底数为自然对数\n
+2.计算器中所有三角函数的参数均为角度，可能有精度误差\n
+3.数制转换的十进制最大值为2的31次方">
+
+    </TextView>
+
+</LinearLayout>
